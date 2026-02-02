@@ -1,0 +1,22 @@
+artifact_path: file:C:/Users/bikrams/ml_self_heal_hitl/ML_Self_Heal-HITL/mlruns/1/models/m-dcc2739720a043418ac34e6445620217/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.7
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.8.0
+mlflow_version: 3.8.1
+model_id: m-dcc2739720a043418ac34e6445620217
+model_size_bytes: 882
+model_uuid: m-dcc2739720a043418ac34e6445620217
+prompts: null
+run_id: d57296557def4bc286f32e7873df3588
+utc_time_created: '2026-02-02 00:37:34.444286'
